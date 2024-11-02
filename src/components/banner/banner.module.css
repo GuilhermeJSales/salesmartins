@@ -1,0 +1,47 @@
+.banner {
+  background: url('/assets/banner/banner.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 85vh;
+  position: relative;
+}
+
+.banner header {
+  position: absolute;
+  top: 0;
+  width: 1600px;
+}
+
+.bannerPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 85vh;
+}
+
+.bannerCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.bannerCopy h1 {
+  font-family: var(--noto-serif);
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: var(--beige);
+}
+
+.bannerCopy p {
+  color: var(--beige);
+  font-size: 1.375rem;
+  max-width: 30.75rem;
+  line-height: 2.125rem;
+}
+
+.bannerButton {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}

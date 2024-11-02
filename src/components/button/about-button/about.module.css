@@ -1,0 +1,29 @@
+.button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--chumbo);
+  background: var(--gray);
+  height: 3.5rem;
+  padding: 0 1.25rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background: transparent;
+  outline: 1px solid var(--beige);
+  color: var(--beige);
+}
+
+.button:hover .arrow path {
+  transition: all 0.5s ease-in-out;
+  fill: var(--beige);
+}
